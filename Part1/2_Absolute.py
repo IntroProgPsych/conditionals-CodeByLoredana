@@ -16,4 +16,13 @@
 # The absolute value of this number is 99
 
 # Write your code here:
+# Write your code here:
 
+number = int(input("Please type in a number: "))
+
+if number < 0:
+    absolute_value = number * -1
+else:
+    absolute_value = number
+
+print("The absolute value of this number is", absolute_value)
